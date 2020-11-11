@@ -1,0 +1,726 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    width: 6vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 20;
+}
+
+#q-burger {
+    cursor: pointer;
+    margin: 387% 0 123% 12px;
+    width: 70%;
+}
+
+
+#q-burger line {
+    fill: none;
+    stroke: #000;
+    stroke-width: 1;
+    stroke-miterlimit: 10;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.imgBackground {
+    background-color: #E9E6CA;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+}
+
+.outer-wrapper {
+    width: 100vw;
+    height: 203vh;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: fixed;
+}
+
+.wrapper {
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+    display: flex;
+    flex-direction: row;
+    min-width: -webkit-fit-content;
+}
+
+.box1 {
+    background-color: #EBE5AC;
+    box-sizing: border-box;
+    float: left;
+    height: 101vh;
+    width: 6vw;
+}
+
+
+/* For Desktop */
+
+.pag1 {
+    width: 90vw;
+    display: flex;
+}
+
+.pag2 {
+    width: 48vw;
+    display: flex;
+}
+
+.pag3 {
+    width: 48vw;
+    display: flex;
+}
+
+.pag4 {
+    width: 48vw;
+    display: flex;
+}
+
+.pag5 {
+    width: 48vw;
+    display: flex;
+}
+
+.pag6 {
+    width: 48vw;
+}
+
+.pag7 {
+    width: 48vw;
+}
+
+.pag8 {
+    width: 48vw;
+}
+
+.pag9 {
+    width: 48vw;
+}
+
+.pag10 {
+    width: 96vw;
+}
+
+
+/* For Desktop */
+
+.pagina1 {
+    margin-top: 5%;
+    margin-left: 12%;
+}
+
+.logosaude {
+    position: fixed;
+    width: 28.7vw;
+    height: 25.1vh;
+    left: 2%;
+    top: 1%;
+}
+
+.ilustracaoSaude {
+    float: left;
+    width: 35%;
+    height: 46.3vh;
+}
+
+.introducao {
+    background-color: #EBE5AC;
+    width: 150vh;
+    height: 43vh;
+    display: flex;
+}
+
+.texto1 {
+    width: 50%;
+    height: 100%;
+    display: left;
+    padding: 120px 20px 0 20px;
+    margin-top: 3%;
+    font-family: 'Heebo';
+    font-weight: bold;
+    float: left;
+}
+
+.texto2 {
+    width: 50%;
+    margin-top: 2%;
+    height: 100%;
+    display: left;
+    padding: 15px 20px 0 0;
+    font-family: 'Heebo';
+    font-weight: bold;
+}
+
+.caixaTexto1 {
+    margin-top: 4vh;
+    background-color: #EBE5AC;
+    width: 150vh;
+    height: 43vh;
+    display: flex;
+}
+
+.texto3 {
+    width: 60%;
+    padding: 70px 20px 0 20px;
+    font-family: 'Heebo';
+}
+
+.caixa2 {
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 40%;
+    height: 85%;
+    float: left;
+    /*background-color: white;*/
+    border: black 5px solid;
+}
+
+
+/*---------------------CSS DA 2 PAGINA---------------------------------*/
+
+.pagina21 {
+    margin-top: 5%;
+    margin-left: 8%;
+    height: 90%;
+}
+
+.titulo2 {
+    width: 95%;
+    height: 10%;
+    /*background-color: #B7A718;*/
+}
+
+.TituloPag2 {
+    background-color: #B7A718;
+    width: 50%;
+    height: 90%;
+    float: right;
+    font-weight: bold;
+    font-family: 'Heebo';
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+
+.box21 {
+    background-color: #EBE5AC;
+    width: 95%;
+    height: 86%;
+    margin-top: 3%;
+    font-weight: bold;
+    font-family: 'Heebo';
+    text-align: center;
+    border: #EBE5AC solid 5px;
+}
+
+.texto-caixa2 {
+    margin-top: 2%;
+    text-align: justify;
+    margin-left: 2vw;
+    width: 90%;
+    height: auto;
+    color: black;
+    font-size: 14.5px;
+}
+
+.logosus {
+    width: 30%;
+}
+
+.pagina22 {
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+.texto2-pag2 {
+    background-color: #EBE5AC;
+    width: 95%;
+    height: 28vh;
+    text-align: justify;
+    font-family: 'Heebo';
+    font-weight: bold;
+    font-size: 14.5px;
+    /*background-color: #B7A718;*/
+}
+
+.texto21-pag2 {
+    background-color: #EBE5AC;
+    text-align: justify;
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+.imagens-pag2 {
+    background-color: #EBE5AC;
+    margin-top: 0vh;
+    width: 95%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+}
+
+.fotos-pag2 {
+    width: 190px;
+    height: 329px;
+}
+
+.imagem1-pag2 {
+    margin-top: 8vh;
+    width: auto;
+    height: auto;
+    display: left;
+    margin-bottom: 4vh;
+}
+
+.imagem2-pag2 {
+    margin-top: 8vh;
+    margin-left: 2vh;
+    width: auto;
+    height: auto;
+    display: left;
+}
+
+
+/* ------------------------------------------- CSS da Página 3 --------------------------------------- */
+
+.titulo-pag3 {
+    width: 100%;
+    height: 90%;
+    margin-top: 5%;
+}
+
+.boxtexto2-pag3 {
+    border: #EBE5AC solid 4px;
+    margin-top: 3%;
+    margin-left: 4%;
+    float: bottom;
+    display: flex;
+    background-color: #EBE5AC;
+    text-align: justify;
+    width: 88%;
+    height: 30%;
+    font-weight: bold;
+    font-family: 'Heebo';
+    text-align: center;
+    color: black;
+    font-size: 14.5px;
+}
+
+.TituloPag3 {
+    background-color: #B7A718;
+    margin-left: 31%;
+    width: 60%;
+    height: 8%;
+    font-weight: bold;
+    font-family: 'Heebo';
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.Boxtexto-pag3 {
+    width: 100%;
+    height: 85%;
+    margin-top: 5%;
+    margin-top: 3%;
+    background-color: #EBE5AC;
+}
+
+.texto1-pag3 {
+    background-color: #EBE5AC;
+    margin-top: 15%;
+    margin-left: 2%;
+    width: 95%;
+    height: 80%;
+    font-weight: bold;
+    font-family: 'Heebo';
+    text-align: justify;
+    font-size: 14.5px;
+    border: #EBE5AC solid 9px;
+}
+
+.carrosseldefotos {
+    background-color: #EBE5AC;
+    width: 100%;
+    height: 80vh;
+    margin-top: 3vh;
+    font-weight: bold;
+    font-family: 'Heebo';
+    text-align: center;
+    border: #EBE5AC 5px solid;
+}
+
+.video1 {
+    margin-left: 5%;
+    margin-top: 6%;
+    width: 540px;
+    height: 303px;
+}
+
+
+/* ------------------------------------------- CSS da Página 4 --------------------------------------- */
+
+.boxtexto11-pag4 {
+    width: 90%;
+    height: 90%;
+    margin-top: 5%;
+}
+
+.titulo-pag4 {
+    background-color: #B7A718;
+    width: 70%;
+    margin-left: 27%;
+    height: 8%;
+    display: left;
+    font-weight: bold;
+    font-family: 'Heebo';
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.texto11-pag4 {
+    background-color: #EBE5AC;
+    margin-left: 8%;
+    margin-top: 3%;
+    width: 90%;
+    height: 89%;
+    font-weight: bold;
+    font-family: 'Heebo';
+    text-align: justify;
+    font-size: 13.5px;
+    border: #EBE5AC solid 15px;
+}
+
+.boxtexto12-pag4 {
+    width: 100%;
+    height: 90%;
+    margin-top: 5%;
+}
+
+.texto12-pag4 {
+    background-color: #EBE5AC;
+    margin-left: 8%;
+    width: 84%;
+    height: 100%;
+    font-weight: bold;
+    font-family: 'Heebo';
+    text-align: justify;
+}
+
+.video2 {
+    margin-left: 10%;
+    margin-top: 6%;
+    width: 80%;
+    align-self: center;
+}
+
+.fotopep1 {
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+/* ------------------------------------------- CSS da Página 5 --------------------------------------- */
+
+.boxtexto11-pag5 {
+    width: 100%;
+    height: 90%;
+    margin-top: 5%;
+}
+
+.texto11-pag5 {
+    background-color: #EBE5AC;
+    margin-left: 8%;
+    margin-top: 3%;
+    width: 84%;
+    height: 90%;
+    font-weight: bold;
+    font-family: 'Heebo';
+    text-align: center;
+    border: solid #EBE5AC 5px;
+}
+
+.textinho1-pag5 {
+    width: 94%;
+    margin-left: 3%;
+    text-align: justify;
+    font-size: 15.5px;
+}
+
+.titulo-pag5 {
+    background-color: #B7A718;
+    width: 50%;
+    margin-left: 8%;
+    height: 8%;
+    margin-left: 42%;
+    display: left;
+    text-align: justify;
+    font-weight: bold;
+    font-family: 'Heebo';
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.boxtexto12-pag5 {
+    width: 100%;
+    height: 90%;
+    margin-top: 5%;
+    font-size: 14.5px;
+}
+
+.titulo2-pag5 {
+    background-color: #B7A718;
+    width: 50%;
+    margin-left: 8%;
+    height: 8%;
+    margin-left: 42%;
+    display: left;
+    text-align: justify;
+    font-weight: bold;
+    font-family: 'Heebo';
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.texto12-pag5 {
+    background-color: #EBE5AC;
+    margin-left: 8%;
+    margin-top: 3%;
+    width: 84%;
+    height: 90%;
+    font-weight: bold;
+    font-family: 'Heebo';
+    text-align: justify;
+}
+
+.textinho2-pag5 {
+    margin-top: 2%;
+    margin-left: 3%;
+    width: 94%;
+    font-size: 14.5px;
+}
+
+
+/* ------------------------------------------- CSS da Página 6 --------------------------------------- */
+
+.boxtexto-pag6 {
+    width: 100%;
+    height: 92%;
+    margin-top: 2%;
+    float: left;
+}
+
+.titulo-pag6 {
+    background-color: #B7A718;
+    width: 95%;
+    margin-left: 2%;
+    height: 14%;
+    float: left;
+}
+
+.texto-pag6 {
+    background-color: #ebe5ad;
+    margin-top: 8%;
+    margin-left: 2%;
+    width: 95%;
+    height: 35%;
+    font-weight: bold;
+    font-family: 'Heebo';
+    text-align: justify;
+    display: flex;
+}
+
+.textinho-pag6 {
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 70%;
+    text-align: justify;
+    font-size: 14.5px;
+    font-family: 'Heebo';
+}
+
+.imagemsaudemental1 {
+    margin-left: 5%;
+}
+
+.ilustracao-pag6 {
+    position: absolute;
+    width: 383px;
+    height: 364px;
+    left: 95%;
+    top: -1%;
+    background: url(abstract-mental-health.png);
+}
+
+.imagem-pag6 {
+    margin-top: 19%;
+    margin-left: 2%;
+    width: 40%;
+    height: 115%;
+    font-weight: bold;
+    font-family: 'Heebo';
+    text-align: center;
+    float: left;
+}
+
+.boxtexto2-pag6 {
+    background-color: #EBE5AC;
+    margin-top: 2%;
+    width: 55%;
+    height: 47%;
+    font-weight: bold;
+    font-family: 'Heebo';
+    text-align: center;
+    float: left;
+}
+
+.Imagem-pag6 {
+    margin-top: -40%;
+    width: 470px;
+    height: 233px;
+    float: left;
+}
+
+.textinho2-pag6 {
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 90%;
+    text-align: justify;
+    font-size: 14.5px;
+    font-family: 'Heebo';
+}
+
+#navbar {
+    display: none;
+}
+
+.with_nav #navbar {
+    display: block;
+}
+
+#navbar:target {
+    display: block;
+}
+
+#navbar {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #101010;
+    width: 100%;
+    height: 100%;
+    padding: 4em;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Heebo,sans-serif;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.navbar li {
+    padding: 2% 18%;
+}
+
+.txtn {
+    font-size: 25pt;
+}
+
+.hist:hover {
+    color: red;
+}
+
+.cult:hover {
+    color: orange;
+}
+
+.sau:hover {
+    color: yellow;
+}
+
+.dire:hover {
+    color: green;
+}
+
+.edu:hover {
+    color: blue;
+}
+
+.about:hover {
+    color: purple;
+}
+
+@media (max-width:768px) {
+    .outer-wrapper {
+        width: 100vw;
+        height: 100vh;
+        transform: rotate(0deg) translateX(0);
+        transform-origin: inherit;
+    }
+    .wrapper {
+        flex-direction: column;
+        transform: rotate(0deg) translateY(0vh);
+        transform-origin: inherit;
+    }
+    .imgBackground {
+        background-image: url(img/photomobile.png);
+    }
+    .pag1 {
+        width: 100vw;
+    }
+    .pag2 {
+        width: 100vw;
+    }
+    .pag3 {
+        width: 100vw;
+    }
+    .pag4 {
+        width: 100vw;
+    }
+    .pag5 {
+        width: 100vw;
+    }
+    .pag6 {
+        width: 100vw;
+    }
+    .pag7 {
+        width: 100vw;
+    }
+    .pag8 {
+        width: 100vw;
+    }
+    .pag9 {
+        width: 100vw;
+    }
+    .pag10 {
+        width: 100vw;
+    }
+    body {
+        background-color: #EBE5AC;
+    }
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0.1% 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Para desktop: */
+.col-1 {width: 12vw;}
+.col-2 {width: 56vw; background-color: #50C4E9;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 38vw; background-color: #50C4E9;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.linha::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    width: 6vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    border: 2px solid grey;
+    opacity: 1;
+    z-index: 20;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.box1 {
+    background-color: #50C4E9;
+    box-sizing: border-box;
+    float: left;
+    height: 101vh;
+    width: 6vw;
+}
+
+.outer-wrapper {
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: fixed;
+}
+
+.wrapper {
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+    display: flex;
+    flex-direction: row;
+    min-width: 420vw;
+}

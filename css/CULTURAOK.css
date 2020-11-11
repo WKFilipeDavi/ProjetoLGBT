@@ -1,0 +1,597 @@
+header {
+    background-color: white;
+    position: fixed;
+    width: 6vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 20;
+}
+
+#q-burger {
+    cursor: pointer;
+    margin: 387% 0 123% 12px;
+    width: 70%;
+}
+
+
+#q-burger line {
+    fill: none;
+    stroke: #000;
+    stroke-width: 1;
+    stroke-miterlimit: 10;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+/* Para desktop: */
+
+.colunaMusica {
+    width: 110vw;
+    height: 100vh;
+    background-color: #E7AA87
+}
+
+.colunaDrags {
+    width: 102vw;
+    height: 100vh;
+    background-color: #E7AA87
+}
+
+.colunaProxPag {
+    max-width: 40vw;
+}
+
+* {
+    margin: 0 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer-wrapper {
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: fixed;
+}
+
+.wrapper {
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+    display: flex;
+    flex-direction: row;
+    min-width: 304vw;
+    background-color: #E7AA87;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.box1 {
+    background-color: #E7AA87;
+    position: fixed;
+    width: 6vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 15;
+}
+
+.boxcultura {
+    margin-left: 1%;
+    width: 77vw;
+    display: flex;
+    background-color: #E7AA87;
+}
+
+.videoGifilmes{
+    float: right;
+    margin-right:-290px;
+    margin-top:40px;
+}
+.videoGifnovela{
+    float: right;
+    margin-top:260px;
+}
+.boxmusica1 {
+    width: 20vw;
+    display: flex;
+    background-color: #E7AA87;
+}
+
+.boxmusica2 {
+    width: 90vw;
+    background-color: #E7AA87;
+}
+
+.boxvogue {
+    width: 40vw;
+    display: flex;
+    background-color: #E7AA87;
+}
+.boxwilli{
+    width: 62vw;
+    display: flex;   
+    background-color: #E7AA87;
+    margin-left: 80px;
+}
+
+.boxdrags{
+    width: 120vw;
+    display: flex;
+}
+.boxProxPag{
+    width: 12vw;
+    display: flex;
+    background-color:white;
+}
+.imgSuperior {
+    margin-left: 1%;
+    display: block;
+    position: fixed;
+    margin-top: -77px;
+    left: 1%;
+}
+.bloco {
+    display: block;
+    float: left;
+    bottom: 10px;
+    background-color: #F06313;
+    width: 76vw;
+    height: 85vh;
+    font-family: 'Heebo';
+    font-size: 17px;
+    margin-top: 70px;
+}
+
+.caixaTexto1 {
+    background-color: #EF854A;
+    width: 60%;
+    height: 20%;
+    padding: 4px;
+    text-align: justify;
+    margin-top: 120px;
+    margin-left: 60px;
+}
+
+.titulo1 {
+    display: flex;
+    float: right;
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: 400px;
+}
+
+.caixaTexto2 {
+    background-color: #EF854A;
+    width: 60%;
+    height: 45%;
+    padding: 3px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.texto2 {
+    margin-left: 5px;
+    text-align: justify;
+    font-family: 'Heebo';
+}
+
+.blocoM {
+    background-color: #E9712E;
+    width: 100vw;
+    height: 7vh;
+    float: left;
+    margin-top: 70px;
+}
+
+.tituloMusica {
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 2px;
+    font-family: 'Heebo';
+    width: 20vw;
+}
+
+.introM {
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Heebo';
+    width: 20vw;
+}
+
+#lista {
+    display: flex;
+    float: left;
+    width: 20vw;
+    font-size: 28px;
+    transform: rotate(-90deg);
+    font-family: 'Heebo';
+    margin-left: 400px;
+    text-align: center;
+}
+
+#lista a {
+    text-decoration: none;
+    color: black
+}
+
+#lista ul li {
+    font-weight: bolder;
+    display: flex;
+    padding-top: 30px;
+}
+
+.FotoJaloo {
+    /*display: flex;*/
+    float: right;
+    margin-right: -140px;
+    margin-top: -90px;
+}
+
+.FotoLiniker {
+    /*display: flex;*/
+    float: right;
+    margin-right: -130px;
+    margin-top: -113px;
+}
+
+.FotoCazuza {
+    /*display: flex;*/
+    float: right;
+    margin-right: -138px;
+    margin-top: -113px;
+}
+
+.FotoCassiaEller {
+    /*display: flex;*/
+    float: right;
+    margin-right: -140px;
+    margin-top: -90px;
+}
+
+.FotoPabloVittar {
+    /*display: flex;*/
+    float: right;
+    margin-right: -140px;
+    margin-top: -90px;
+}
+
+.FotoAnaCarolina {
+    /*display: flex;*/
+    float: right;
+    margin-right: -158px;
+    margin-top: -90px;
+}
+
+.FotoSandradeSá {
+    /*display: flex;*/
+    float: right;
+    margin-right: -158px;
+    margin-top: -90px;
+}
+
+.FotoRenatoRusso {
+    /*display: flex;*/
+    float: right;
+    margin-right: -158px;
+    margin-top: -90px;
+}
+
+.FotoAngelaRoRo {
+    /*display: flex;*/
+    float: right;
+    margin-right: -158px;
+    margin-top: -60px;
+}
+
+.FotoCaetanoVeloso {
+    /*display: flex;*/
+    float: right;
+    margin-right: -158px;
+    margin-top: -114px;
+}
+
+.FotoNeyMatoGrosso {
+    /*display: flex;*/
+    float: right;
+    margin-right: -180px;
+    margin-top: -134px;
+}
+
+.FotoDanielaMercury {
+    /*display: flex;*/
+    float: right;
+    margin-right: -158px;
+    margin-top: -65px;
+}
+
+.blockquote {
+    text-align: justify;
+    font-family: 'Heebo';
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Heebo';
+}
+
+.row {
+    height: 1vh;
+}
+
+.vogue {
+    background-color: #AF480F;
+    display: flex;
+    float: left;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    font-family: 'Heebo';
+    font-size: 15px;
+}
+
+.titvogue {
+    margin-top: 6px;
+    text-align: center;
+}
+
+.conteudoVogue {
+    display: flex;
+    float: left;
+    text-align: justify;
+    padding: 10px;
+}
+
+.titOld {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.conteudoOld {
+    text-align: justify;
+    padding: 10px;
+}
+
+.titVogueNew {
+    font-weight: bold;
+    font-size: 21px;
+    text-align: center;
+}
+
+.conteudoNew {
+    text-align: justify;
+    padding: 10px;
+}
+
+.titVogueFemme {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.conteudoVogueFemme {
+    text-align: justify;
+    padding: 10px;
+}
+
+.card-img {
+    height: 25vh;
+    width: 16vw;
+}
+
+.cardWilli {
+    height: 25vh;
+}
+
+.Willi {
+    width: 65vw;
+    display: flex;
+    float: right;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.card-titleWilli {
+    font-weight: bolder;
+    font-family: 'Heebo';
+    font-size: 23px;
+    text-align: center;
+    width: 20vw;
+    display: flex;
+    float: right;
+    margin-top: 6px;
+}
+
+.card-textWilli {
+    font-family: 'Heebo';
+    text-align: justify;
+    font-size: 20px;
+    width: 36vw;
+    display: flex;
+    float: right;
+    padding-right: 40px;
+}
+
+.cardMadonna {
+    height: 40vh;
+}
+
+.card-titleMadonna {
+    font-weight: bolder;
+    font-family: 'Heebo';
+    font-size: 23px;
+    text-align: center;
+    width: 20vw;
+}
+
+.card-textMadonna {
+    font-family: 'Heebo';
+    text-align: justify;
+    font-size: 20px;
+    width: 28vw;
+    padding: 6px;
+}
+
+.videoMadonna {
+    display: flex;
+    float: right;
+    margin-top: 6px;
+    margin-left: -40px;
+}
+
+.card-titleLeiomy {
+    font-weight: bolder;
+    font-family: 'Heebo';
+    text-align: center;
+    font-size: 23px;
+    margin-left: 20%;
+    margin-top: -8%;
+}
+
+.card-textLeiomy {
+    font-family: 'Heebo';
+    text-align: justify;
+    font-size: 19px;
+    width: 23vw;
+    display: flex;
+    float: right;
+    margin-top: 0.5%;
+    margin-right: 3%;
+}
+
+.cardLeiomy {
+    height: 46vh;
+}
+
+.containertitulo {
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.imagem1laranja {
+    position: fixed;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+.imagem2preto {
+    position: absolute;
+}
+
+.Proxpage {
+    width: 23vw;
+}
+
+#navbar {
+    display: none;
+}
+
+.with_nav #navbar {
+    display: block;
+}
+
+#navbar:target {
+    display: block;
+}
+
+#navbar {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #101010;
+    width: 100%;
+    height: 100%;
+    padding: 4em;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Heebo,sans-serif;
+}
+
+.navbar li {
+    padding: 1% 18%;
+}
+
+.txtn {
+    font-size: 25pt;
+    text-decoration: none;
+}
+
+.hist:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.cult:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+.sau:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.dire:hover {
+    color: green;
+    text-decoration: none;
+}
+
+.edu:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+.about:hover {
+    color: purple;
+    text-decoration: none;
+}
+
+.dinext {
+    width: 85%;
+}
+
+@media only screen and (max-width:768px) {
+    .outer-wrapper {
+        width: 100vw;
+        height: 100vh;
+        transform: rotate(0deg) translateX(0);
+        transform-origin: inherit;
+    }
+    .wrapper {
+        flex-direction: column;
+        transform: rotate(0deg) translateY(0vh);
+        transform-origin: inherit;
+    }
+    .boxcultura {
+        width: 100%;
+    }
+    .boxmusica1 {
+        width: 100%;
+    }
+    .boxmusica2 {
+        width: 100%;
+    }
+    .boxvogue {
+        width: 100%;
+    }
+}
