@@ -1,4 +1,4 @@
-Projeto integradro do curso de front-end da digital house em parceria com o facebook / Integrated project of the digital home front-end course in partnership with facebook
+Projeto integrador do curso de front-end da digital house em parceria com o facebook / Integrated project of the digital home front-end course in partnership with facebook
 
 como usar:
 
